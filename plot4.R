@@ -2,12 +2,11 @@
 source("TidyData.R")
 draw_multiPlots <- function(){
         
-        # Assign the dataframe from the Tidy data
+        # Assign the dataframe from the Tidy data function
         TidyData <- TidyData()
         
         # set margins, background and mfrow
         par(bg="white", mfrow=c(2,2))
-        
         
         # draw multiplots as per the sequence given below
         plot(TidyData$DateTime, TidyData$Global_active_power, xlab="", type="l", ylab="Global Active Power (kilowatts)")

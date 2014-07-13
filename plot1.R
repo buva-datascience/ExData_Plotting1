@@ -3,7 +3,7 @@ source("TidyData.R")
 
 draw_histplot <- function(){
         
-        # Assign the dataframe from the Tidy data
+        # Assign the dataframe from the Tidy data function
         TidyData <- TidyData()
         
         # set margins, background

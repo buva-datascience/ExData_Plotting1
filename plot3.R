@@ -2,7 +2,7 @@
 source("TidyData.R")
 draw_plot_and_lines <- function(){
         
-        # Assign the dataframe from the Tidy data
+        # Assign the dataframe from the Tidy data function
         TidyData <- TidyData()
         
         # set margins, background
